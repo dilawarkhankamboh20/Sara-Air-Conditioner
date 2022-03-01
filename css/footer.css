@@ -1,0 +1,37 @@
+
+  /* footer start */
+
+  #footer{
+    padding: 3rem;
+    margin-top: 1rem;
+    background: darkslategrey;
+  }
+
+  .m-top{
+    margin-top: 3rem;
+  }
+
+
+  .column{
+      margin-left: 2rem;
+  }
+
+  .column ul li {
+
+    margin-bottom: 1rem;
+  }
+
+  .column a{
+
+    font-size: 14px;
+    color: white;
+  }
+
+  #background{
+      padding: 2rem;
+      text-align: center;
+      background-color: black;
+      color: white;
+  }
+  /* footer end */
+

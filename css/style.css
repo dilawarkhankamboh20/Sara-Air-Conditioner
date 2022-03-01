@@ -9,36 +9,32 @@
     list-style: none;
 }
 
+html{
+
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-track{
+    width: 10px;
+    background: black;
+}
+
 .container {
     max-width: 80vw;
     margin: auto;
 }
 
-
-/* header :start */
-
-header {
-
-    box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.5);
-    margin-bottom: 2rem;
-}
-
-nav {
-    padding-top: 1rem;
-}
-
-nav .logo img {
-
-    height: 80px;
-}
-
-nav ul li a {
-    font-size: 13px;
-    margin-left: 2rem;
-    text-transform: uppercase;
-}
-
-/* header :end */
 
 
 /* main start */
