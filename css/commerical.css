@@ -1,0 +1,109 @@
+
+
+#background{
+
+    background: url(../images/commerical-img/commerical.png);
+    height: 80vh;
+}
+
+
+.commerical_content{
+
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.commerical_content h2{
+
+    color: white;
+    text-transform: uppercase;
+    line-height: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+
+
+.commerical_content p{
+
+    color: white;
+    line-height: 1.7rem;
+    padding-bottom: 1rem;
+}
+
+/* choose section start */
+
+.choose_content{
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.choose_content p{
+    padding-top: 2rem;
+    line-height: 1.7rem;
+    text-align: center;
+}
+
+
+/* provide wraper start */
+
+#provide_wraper{
+    margin-top: 2rem;
+    height: 100vh;
+    background: #F8F8F8;
+}
+
+#provide_wraper h1{
+
+    padding-top: 3rem;
+    font-weight: 300;
+}
+
+
+.provide_wraper{
+
+    max-width: 70vw;
+    margin: 3rem auto;
+
+}
+
+.card{
+    margin-top: 2rem;
+    width: 500px;
+}
+.provide_wraper .card .image img{
+
+    height: 80px;
+}
+
+
+#brands h1{
+
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#brands_wraper{
+
+    margin-top: 2rem;
+
+}
+
+.card .images img{
+    display: block;
+    margin: auto;
+    width: 250px;
+}
+
+.content h3{
+
+    text-align: center;
+    font-weight: 200;
+}
+
+
+
+body{
+
+    height: 3000px;
+}
