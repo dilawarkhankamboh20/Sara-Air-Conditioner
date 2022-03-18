@@ -1,4 +1,18 @@
+html::-webkit-scrollbar{
 
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-track{
+    width: 10px;
+    background: black;
+}
 
 
 #about{
