@@ -1,0 +1,86 @@
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: blueviolet;
+}
+
+html::-webkit-scrollbar-track{
+    width: 10px;
+    background: black;
+}
+
+
+.contact h1{
+
+    text-align: center;
+    padding-top: 3rem;
+}
+
+
+#contact{
+    height: 100vh;
+
+    background: #0F111A;
+   
+}
+
+#contact h1{
+
+    text-align: center;
+    padding-top: 3rem;
+    color: white;
+}
+
+
+.contact {
+    max-width: 70vw;
+    margin: 0 auto;
+    padding-top: 4rem;
+    
+}
+
+
+.contact label{
+
+    color: white;
+}
+
+.contact input{
+    display: flex;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    flex-direction: column;
+    padding: 0.6rem 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 60vw;
+
+}
+
+.contact input:focus{
+
+    border: 2px solid orangered;
+}
+
+
+.btn{
+
+    padding: 0.5rem 2rem;
+    border: 2px solid white;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+
+}
